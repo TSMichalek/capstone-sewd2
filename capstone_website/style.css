@@ -24,8 +24,8 @@ body {
     display: block;
     border: 5px solid #3f4738;
     text-align: center;
-    min-width: 500px;
-    max-width: 800px;
+    max-width: 960px;
+    min-width: 640px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -34,17 +34,24 @@ body {
     color: #eff6ee;
 }
 
-.banner {
+header{
+    background-color: #3f4738;
+}
+
+body > header > .banner {
     width: 760px;
     height: 210px;
+    margin-top: 10px;
     border: 3px solid #3f4738;
 }
+
 div.gallery {
     display: inline-block;
+    margin: 20px;
 }
 
 .gallery-item {
-    margin: 5px;
+    margin: 10px;
     border: 1px solid #ccc;
     width: 180px;
 }
@@ -54,7 +61,6 @@ div.gallery {
 .gallery-item#second {
     transform: rotateY(0deg);
     animation-name: spin;
-    animation-delay: 2s;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -68,3 +74,4 @@ div.gallery {
         transform: rotateY(360deg)
     }
 }
+
