@@ -34,15 +34,30 @@ body {
     color: #eff6ee;
 }
 
-header{
+header {
     background-color: #3f4738;
 }
 
+.corn {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
 body > header > .banner {
-    width: 760px;
-    height: 210px;
     margin-top: 10px;
     border: 3px solid #3f4738;
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+header > h1 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    margin-left: 260px;
+    margin-top: -100px;
 }
 
 div.gallery {
@@ -66,6 +81,7 @@ div.gallery {
     animation-timing-function: linear;
 }
 
+/*
 @keyframes spin {
     from {
         transform: rotateY(0deg)
@@ -74,4 +90,4 @@ div.gallery {
         transform: rotateY(360deg)
     }
 }
-
+*/
